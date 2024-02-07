@@ -42,7 +42,7 @@ entries:
     - https://github.com/allegroai/clearml-helm-charts/releases/download/clearml-7.6.0/clearml-7.6.0.tgz
     version: 7.6.0
  
-
+  clearml-agent:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
