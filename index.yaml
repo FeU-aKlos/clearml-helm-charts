@@ -69,7 +69,7 @@ entries:
     - https://github.com/allegroai/clearml
     type: application
     urls:
-    - https://github.com/FeU-aKlos/clearml-helm-charts/archive/refs/tags/myrelease.tar.gz
+    - https://github.com/FeU-aKlos/clearml-helm-charts/releases/download/clearml-agent-v.0.01/clearml-agent.tar.gz
     version: 10.0.0
 
   
