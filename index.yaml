@@ -3560,6 +3560,36 @@ entries:
     - https://github.com/allegroai/clearml-helm-charts/releases/download/clearml-2.0.0-alpha1/clearml-2.0.0-alpha1.tgz
     version: 2.0.0-alpha1
   clearml-agent:
+
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: wrong indentation on volumeMounts
+    apiVersion: v2
+    appVersion: "1.24"
+    created: "2024-01-10T08:24:12.105777202Z"
+    description: MLOps platform Task running agent
+    digest: f90f212b29946a06d34db03907e318b36966bbf4bb9a3702bf0294c92886ce73
+    home: https://clear.ml
+    icon: https://raw.githubusercontent.com/allegroai/clearml/master/docs/clearml-logo.svg
+    keywords:
+    - clearml
+    - machine learning
+    - mlops
+    - task agent
+    kubeVersion: '>= 1.21.0-0 < 1.29.0-0'
+    maintainers:
+    - name: valeriano-manassero
+      url: https://github.com/valeriano-manassero
+    name: clearml-agent
+    sources:
+    - https://github.com/FeU-aKlos/clearml-helm-charts
+    - https://github.com/allegroai/clearml
+    type: application
+    urls:
+    - https://github.com/FeU-aKlos/clearml-helm-charts/archive/refs/tags/myrelease.tar.gz
+    version: 10.0.0
+
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
